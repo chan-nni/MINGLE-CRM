@@ -31,7 +31,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build Docker image
-        run: docker build -t mingle-frontend-app .
+        run: docker build -t channni/mingle-frontend-app .
 
       - name: Push Docker image
-        run: docker push mingle-frontend-app
+        run: docker push channni/mingle-frontend-app
