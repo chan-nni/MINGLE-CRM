@@ -18,9 +18,6 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Change directory to frontend/mingle
-        run: cd MINGLE-CRM/frontend/mingle
-
       - name: Install dependencies
         run: npm install
 
@@ -38,4 +35,3 @@ jobs:
 
       - name: Push Docker image
         run: docker push channni/mingle-frontend-app
-
