@@ -38,3 +38,4 @@ jobs:
 
       - name: Push Docker image
         run: docker push channni/mingle-frontend-app
+
